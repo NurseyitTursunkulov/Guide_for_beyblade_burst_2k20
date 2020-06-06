@@ -1,83 +1,72 @@
 <resources>
     <string name="app_name" translatable="false">Guide for Beyblade</string>
     <string name="app_name_for_title" translatable="false">Guide for Beyblade Burst 2k20</string>
-    <string name="hello_world">Hello World!</string>
     <string name="privacy_policy">Privacy Policy</string>
-    <string name="book1title">About Dream League Soccer 2020</string>
-    <string name="book1body">About Dream League Soccer 2020 \n
-<p>
-Dream League Soccer 2020 is the latest installment in First Touch’s long-running football management franchise, and it’s now available for both iOS and Android devices. Thousands of real, licensed soccer players from all over the world are available in this game’s talent pool, as well as a ton of divisions/leagues and cup competitions to work your way through. There are also special live events and multiplayer options that you can definitely check out, on top of the Career/campaign mode that you likely will be playing for the most part early on.
-</p>
-        \n
-        \n
-<br>
-Even with fewer leagues and fewer real-life players than a game like Football Manager, this new version of Dream League Soccer still requires a comparatively steep learning curve, especially if you’re a first-time player who hasn’t played its previous versions. Returning players may find it easier to get the hang of the game once again, but regardless whether you’re a complete newcomer or a returning player, we believe the tips, cheats and strategies we’ve included in this Dream League Soccer 2020 beginner’s guide should provide you with everything you need to know about starting out in the game, playing your first few matches, and signing your first few players. Having a true ‘dream team” of soccer greats won’t happen overnight by any stretch of the imagination, but we assure you — it’s not impossible.
-</br>
-"</string>
-    <string name="book_1_title">Getting Started With Dream League Soccer 2020</string>
-    <string name="book_1_body">If you’ve played Dream League Soccer in its previous iterations, you should have a good idea of the game’s premise — all of the world’s football leagues have gone defunct, and everyone has been reassigned to different teams across eight new leagues, with the best players mostly found in the first-tier league and the, well, least impressive players competing in the eighth-tier league, the Academy Division.
+    <string name="book1title">About game</string>
+    <string name="book1body">Beyblade Burst Mobile is a Beyblade Burst game published by Hasbro. It is available on Android and iOS. The game allows you to scan QR codes included with Hasbro Beyblade products. The player can then customize their Beyblade using the parts they\'ve unlocked.</string>
+    <string name="book_1_title">Gameplay</string>
+    <string name="book_1_body">Overall, even for a beginner, the gameplay is simple. The game initially has 5 Beyblades unlocked for the player to choose from: Valtryek Wing Accel, Spryzen Spread Fusion, Roktavor Heavy Survive, Kerbeus Central Defense (Hasbro), and Z Achilles 11 Xtend. The player can customize any of their Beyblades by selecting the Edit option in the Beylocker, then selecting the Forge Disc and Performance Tip to equip to the Energy Layer. Players can also choose which color they want to use for each part, though they must be unlocked first. New parts and part color variants can be unlocked either by scanning the QR code on the physical product or can be purchased from the in-game Store. Parts, Beystadiums, and new Beyblades can be purchased with in-game currency called Beycoins earned from gameplay. The game does not have any option to use real-world money. New items are cycled into the shop 7 days after first visiting. The timer does not start counting down again until the player visits again.
         \n
         \n
 
-        Naturally, you will be starting out in the Academy Division, with a club full of mediocre, common players and virtually no chance of winning the tutorial match if you play it straight with no hanky-panky. But you don’t need to worry, because the game will get you started with one player that’s better than everyone else.
+        In addition to battling, in-game currency and experience points can be earned by using Battle Track. The game will automatically run multiple matches between the selected Beyblade and randomly generated opponents over a 4 hour period. Once completed, the player can claim their reward with Beycoins, experience points, and Beypoints which act as player experience. Individual parts all gain the same experience from a given match and can be leveled up, improving their statistics. When the player levels up, it unlocks new character icons, Beystadiums, and game-exclusive skins for parts. The player can level up to 99, while Beyblade parts can each level up to 5. Despite having a low maximum level, the difference between one level and the next is significant. Beating a Beyblade of a higher level gives an Underdog bonus, which scales based on the difference in level. Winning without drawing or losing will also give a bonus, and finish a match with a Burst Finish will award extra Beycoins.
         \n
         \n
-        After you enter your team name and manager name, you will then be asked to choose your Captain — you’ll have several players to choose from, all of whom have an 80 rating, and your choice of Captain will largely depend on your playing style. If you want to have a fast-paced, high-scoring team, you’ll want to choose a forward, and if you believe that the best offense a good defense, you can start out with a good center back or other defensive player. You can go with a midfielder, on the other hand, if you prefer a good mix of offense and defense.
+        Like the real game, Beyblades are divided into four types - Attack, Defense, Stamina, and Balance. The type advantages of the toys are present in the game as well, though more emphasized by advantaged Beyblades doing more Stamina and Burst Meter damage to their opponents. A match starts with the player lining up their launch, then tapping the screen in time with the countdown timer. With each tap, the range gets narrower. The player can get a "Perfect Launch" by tapping correctly enough times to fill the energy meter above the time, 8 out of the 10 available times to do so. A Perfect Launch gives the player extra stamina beyond the normal maximum at launch. Once launched, both Beyblades will move around the Beystadium on their own, occasionally moving in to attack. A round ends when one or both players have their Stamina or Burst Meter depleted. One point is awarded for Survivor Finishes and two for Burst Finishes. Unlike the physical game, Draws have points awarded to both players as appropriate for the finish type. Of example, if one player spins out and the other bursts, one player will get one point while the other gets two.
         \n
         \n
-        Once you’ve settled on a Captain, you’ll be shown the game’s basic controls ahead of the tutorial match — on both offense and defense, you will use three buttons on the bottom right side of the screen while moving your players around with the virtual joystick on the bottom left. On offense, “A” is for hard kicks, “B” for passing the ball to an open player (and you will need to make sure they’re open), and “C” for a lofted kick. You can also perform skill moves by double-tapping on the screen, either while the player you’re controlling is dribbling the ball around or while the ball is airborne.
+        The player has two meters that steadily fill throughout the fight - the Basic Ability and the Avatar Attack. These can also be filled quicker by collecting Ability and Avatar Orbs by tapplin on them. Once a meter is filled, the player can activate that ability. For Basic Abilities, Attack Types will perform a Smash Attack, Defense Types will take the center and force the opponent to attack, Stamina Types will recharge their Stamina Meter (but not Burst Meter), and Balance Types will have a random Basic Ability which changes each time it\'s used. However, all of these can be countered; the Smash Attack can be reversed if the opponent is Defense Type and activates its ability first, the forced attack of a Defense Type taking the center can be escaped by a Stamina type activating its recharge (or if the ability was poorly timed, any opponent my move away rather than attacking), and a Stamina Type\'s recharge will stop if it takes damage in any way. The Avatar Attack will instead bring up a quick time event where the player must tap at the right time, with different meters for different Beyblades. Depending on the player\'s timing, an Avatar Attack will do a large amount of damage (from 50% to 100% of a predetermined value) which also lowers the opponent\'s Burst Meter faster than normal clashes or Basic Abilities.
         \n
         \n
-        On defense, the game will first tell you about the purpose of “B,” which is for pressuring an opposing player that has the ball and trying to dispossess them the good, clean way. “A” is for executing a slide tackle, which could be effective if timed properly but dangerous, as a poorly-timed tackle could lead to a red card! Lastly, “C” is for switching from one player to another on defense, with the player you’re controlling being the one who’s closest to the ball.
-        \n
-        \n
-        As it does in other association football games of its kind, Dream League Soccer 2020 features 90-minute matches, though this is obviously not in real-time — typical matches last about five minutes for both halves. This isn’t one of those games where you will only be asked to control your team during crucial moments — every action on the pitch is 100 percent on you, and as we’ll be explaining in a bit, management is imperfect, but deliberately made easy, especially for beginners.
-        \n
-        \n
-        Finishing a match in Career Mode will earn you some coins — the game’s common currency — with the chance of getting a bonus if you watch an ad video. Of course, the coin earnings will be more generous if you actually won the match, but even if you lose, you’ll still get something, plus the same chance to watch a video to increase your earnings.
-        \n
-        \n
-        Again, don’t fret if you lose your tutorial match, which will be the first in 15 for the Academy Division. You will automatically start out with the worst team in the Academy Division (even with your Captain in the starting lineup), so you’re not expected to be good just yet. Of course, you will need to improve your lineup as you go on, but while you’re starting out, there’s no shame in losing to someone better than you. The game will also make sure to help you out after you’ve completed that tutorial match, with a new player reward of 1,500 free coins and 75 free Gems, which you can use to acquire players through different methods, all of which we shall be discussing in this beginner’s guide.
+        The game features an achievement system that rewards the player with Beypoints for completing specific goals. These can be anything from scanning a certain type of product to winning a number of battles to collecting a number of orbs during matches. A weekly challenge, changed every Sunday at midnight, will have a more specific goal such as defeating a specific type of Beyblade with another type. The player can also watch instructional videos or promotional clips from the anime.
         \n
         \n
     </string>
-    <string name="book_2_title">Management Made Easy – Watch Out For Auto Sub Suggestions</string>
-    <string name="book_2_body">As is always the case, Dream League Soccer 2020 is a management game that focuses more on your ability to control your players on the field and make sure they’re doing the right things, minimizing sloppy passes, dirty tackles, and wild shots at the goal and maximizing smart play overall. That, in part, is what makes the game so challenging, and much more so than, say, starting out with Liverpool in the Premier League and decimating almost every opponent through the sheer power of your lineup and a few taps here and there to adjust your tactics and make substitutions.
+    <string name="book_2_title">Game Modes</string>
+    <string name="book_2_body">Battle League:
+        \n
+    • My Leagues: \n Allows the player to create a League. They can select a time frame and which of their friends are invited. This can be used for tournaments or single matches.
+   \n
+    • World Events: \n Various types of tournaments the player can join. Each has an entry fee. Players are ranked based on points, with the winner having the most at the end.
+\nSingle Elimination: \n The player is knocked out of the rankings if they lose a single match.
+\n Triple Elimination: \n The player is knocked out of the rankings after three losses in a bracket.
+\n 10 Match Tournament:\n The player participates in 10 matches.
+\n Toy Battles:\n
+    • Head to Head: \n A single match battle. \n
+    • Tournament:\n The player can set up a one-time tournament bracket with players on their friend list.\n
+Quick Battle: \n
+    • Battle A Friend: Allows players to face off against one another. The other player must be on your friends list.\n
+    • Random Opponent: A random player who is also looking for an opponent is selected.\n
+    • Exhibition Battle: The player faces off against a CPU-controlled player.\n
+Custom Opponent:\n The player selects the parts and levels for their opponent Beyblade.\n
+Random Opponent:\n The game randomly assembles a Beyblade to fight. However, it can and will often create opponents much stronger than the player if they do not use a Beyblade with all level 5 parts.
+        \n
+Training: The player selects a Beyblade of the appropriate type. The game teaches the advantages of that type and the abilities it has.
+\n
+        Challenges:\n The player battles a series of predetermined Beyblades. The player must pay an entry fee to begin a challenge, but will earn money and experience for each victory. Depending on how far they get into the challenge, the player can also win a bonus for first, second, or third place. Challenges can have requirement such as a specific Beyblade, type, or level.
         \n
         \n
-        As we briefly mentioned in the first tip, the game will make it fairly easy for you to manage your team during a match. While all you need to do is to drag and drop players in the Team Management tab in the pause menu, the game will automatically suggest substitutions in the second half once one of your players is too fatigued.
-        \n
-        \n
-        That’s Dream League Soccer 2020’s way of allowing you to focus on the on-field action rather than the management aspect of things, although you’re also free to change your formation in the middle of a match — we won’t get too much into that yet, as it’s more important to know at this point that it’s easy to make subs. Furthermore, you’ll only have a limited number of formations to choose from early on!
-        \n
-        \n
-        In non-game situations, you can make the same adjustments under Team Management, and you’ll notice here that there’s no auto-select option — hence our comment in the first tip that the management facet of Dream League Soccer 2020 isn’t perfect. However, the ease in which you can drag and drop players, among other factors, makes it easier to reorder your team than it is in Top Eleven.
-        \n
-        \n
+
     </string>
-    <string name="book_3_title">Tips And Tricks For Winning Your First Few Matches</string>
+    <string name="book_3_title">Trivia</string>
     <string name="book_3_body">
-        We cannot understate it enough — you should not expect to win a ton of matches right away and shoot up the Academy Division’s rankings when you’ve got a team of scrubs and one lone star serving as your Captain. But there are ways to improve your chances of winning those first few matches when it comes to the things you have your players do on the field.
-        \n
-        \n
-        Our very first tip here is to focus on short passes and make sure that the player you’re passing to is actually open! Hitting the “B” button willy-nilly once you’re getting pressured by a defender will only result in you getting dispossessed more often than not, so you’ve got to look carefully and make sure that the other guy isn’t surrounded by a bunch of opponents, and don’t wait until the last second before passing the ball. That, too, is a shortcut to getting dispossessed quickly.
-        \n
-        \n
-        Another thing to keep in mind is that your players will all have small icons over their heads — normally, this wouldn’t matter too much if both teams have jerseys in different colors, but there may be some instances where both clubs have identically colored jerseys. That could make things very difficult, and it’s all too common to lose matches because you got confused as to which players are on your side and which ones aren’t!
-        \n
-        \n
-        On defense, you should always try to be as close to the ball as possible. Again, you may be tempted to hit on the “C” button to keep constantly switching so that the AI controls the defense as much as possible. That’s not a good idea for two reasons — one, that could throw off your defensive strategy with multiple players having to readjust and refocus their attention each time you hit on C. Two, the game’s AI isn’t really that smart when it comes to computer-controlled players on your club defending the opponent. That’s why you should use the “C” button smartly, in such a way that you’re trying to stay on the ball and trying to get it back to your side before they become a threat to score.
-        \n
-        \n
-        It’s also important to time your slide tackles properly — usually, the “B” button would be just fine, as it allows you to safely pressure an opponent. (Effectively is another question altogether and would largely depend on you — you’ll need to be sure you’re as close to the opposing player with the ball and actually in front of them in order to make a successful pressure!)
-        \n
-        \n
-        Sometimes, you need to hit that exclamation point by making an electric (pun not intended) slide tackle and decisively getting the ball back. You don’t want to sneak up on an opponent and hit a slide tackle from behind — you need to do it in front and at the right time, or else you risk getting a yellow or a red card for your troubles! Yellow cards are fine, just as long as it’s not the second in the game, otherwise it becomes an automatic red card and you get sent off.
-        \n
-        \n
-        But red cards are something you definitely want to avoid — not only does the player get sent off for dirty defensive tactics, you also cannot substitute him for someone else, automatically leaving you one man short once somebody gets sent off. That player will also be suspended for one match after getting a red card — football associations, even in the Dream League’s universe, mean business when talking about dirty play.
-        \n
-        \n
+       The icon for the game is Valtryek V2, using the Epic Rivals Battle Set coloration. \n\n
+There are custom avatars in the game which are similar to the characters in the anime. ( Valt, Shu, Wakia, Daigo, Red Eye, etc.) However, none of them are completely accurate in appearance to the characters themselves.\n\n
+The game allows a wide variety of customization, including customizing CPU controlled opponents. However, it has some limitations:\n\n
+SwitchStrike parts with mode change gimmicks, such as Energy Layer - Spryzen Requiem S3\'s spin direction or the selectable tips on Performance Tip - Trans, can be selected before rounds in a match; this will adjust their statistics accordingly. However, others such as Energy Layer - Wyvron W3 or Performance Tip - Nothing where the feature is automatic or otherwise not in the player\'s control will instead have one or two extra Basic Abilities which can be activated once each per round but don\'t recharge from collecting Energy Orbs. This is likely due to such gimmicks not being easily visualized in the game\'s simplistic mechanics.\n\n
+Forge Discs with Disc Frames are treated as a single item, with each combination of Disc and Frame being given its own part code. For example, Forge Disc - 4 with Disc Frame - Meteor is given the code D65, while 4 on its own is D50.\n\n
+Slingshock tips cannot change mode, and therefore cannot take more aggressive movement patterns.\n
+GT Chips cannot be switched between Layer Bases on HyperSphere Energy Layers.\n\n
+All Beystadiums of a given type - Basic, Slingshock, or HyperSphere - will have identical performance to all others of the same type. Beystadiums with gimmicks that affect performance, such as being larger or having multiple levels\n\n
+The statistics assigned to parts in-game does not always reflect their real world performance.\n\n
+Some appear to be based on the theoretical abilities the toys are intended to have, such as Energy Layer - Balkesh B3 having high Defense based on its gap-blocking gimmick.\n\n
+Rip Fire parts in-game have higher Attack, Defense, or Weight statistics compared to their standard counterparts. However, in real life, they are not competitively viable due to the higher Burst rates (including self-Burst) and lower weight of Rip Fire Forge Discs compared to the normal versions.\n\n
+Dual Layers released under new names for Turbo, such as Energy Layer - Anubion A2 recolored as Energy Layer - Lava-X Anubion A4, have different in-game statistics despite being the exact same mold and performing near identically to their original versions.\n\n
+Beyblades in-game will never lose stamina over time from friction, only from clashing with each other. Stamina type Beyblades have the ability to replenish their Stamina with their Basic Ability, but not their Burst Meter.\n\n
+The game doesn\'t allow the player to type any username they wish. Instead, two words are selected from separate predetermined lists with a sequential number added at the end. When creating a new profile, the user does not directly select the words but taps a button which randomly selects each part, which can be repeated until receiving the desired words.\n\n
+Due to the limited number of possible QR codes and the codes themselves lacking registers (marks that determine orientation for QR codes), some codes will unlock multiple items in-game. This is due to the QR codes basically being identical but rotated 90 or 180 degrees relative to each other. For example, Dullahan D5 11 Linear-H uses the same code as the Battle Tower Beystadium. Scanning the code twice will unlock both.\n\n
+When the game was first updated to include Slingshock Beyblades, recolored Dual Layers released with new names were treated as color variations of the original. For example, Energy Layer - Blizzard-X Gaianon G4 was treated as a variation of Energy Layer - Gaianon G2. However, a later update separated them, with customized parts being applied to the original while the new version would be given its default parts. This also reverted the Slingshock Energy Layer to level 1, even if the Forge Disc and Performance Tip it was included with had been leveled up since.\n\n
+The game originally only allowed Beyblades that had been physically scanned to activate Battle Track, which was originally called Avatar Track. Beyblades which had been purchased from the store could still be scanned to allow Avatar Track to be used. A later update changed this so that all Beyblades that the player unlocked could use Battle Track, and changed the name.\n\n
     </string>
     <string name="book_4_title">About Rage-Quitting – Save It For Career Mode, And Only When Needed</string>
     <string name="book_4_body">
@@ -142,5 +131,10 @@ Even with fewer leagues and fewer real-life players than a game like Football Ma
         \n
         \n
     </string>
+
+    <string name="some_long_text" translatable="false">Overall, even for a beginner, the gameplay is simple. The game initially has 5 Beyblades unlocked for the player to choose from: Valtryek Wing Accel, Spryzen Spread Fusion, Roktavor Heavy Survive, Kerbeus Central Defense (Hasbro), and Z Achilles 11 Xtend. The player can customize any of their Beyblades by selecting the Edit option in the Beylocker, then selecting the Forge Disc and Performance Tip to equip to the Energy Layer. Players can also choose which color they want to use for each part, though they must be unlocked first. New parts and part color variants can be unlocked either by scanning the QR code on the physical product or can be purchased from the in-game Store. Parts, Beystadiums, and new Beyblades can be purchased with in-game currency called Beycoins earned from gameplay. The game does not have any option to use real-world money. New items are cycled into the shop 7 days after first visiting. The timer does not start counting down again until the player visits again.</string>
+
+
+    <string name="hello_world">hello world</string>
 
 </resources>

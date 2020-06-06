@@ -24,7 +24,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         MutableLiveData<Event<Boolean>>()
     val showAdvertEvent: LiveData<Event<Boolean>> = _showAdvertEvent
 
-    var showAdvertState = true
+    var showAdvertState = false
 
     private val _navigateToDetailEvent = MutableLiveData<Event<Book>>()
     val navigateToDetailEvent: LiveData<Event<Book>> = _navigateToDetailEvent
@@ -37,7 +37,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
     init {
         viewModelScope.launch {
-            delay(2000)
+            delay(1000)
             _splashState.postValue(
                 Event(
                     SplashState.MainActivity()
@@ -81,26 +81,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 title = getString(R.string.book_3_title),
                 body = getString(R.string.book_3_body),
                 imageId = R.drawable.image5
-            ),
-            Book(
-                title = getString(R.string.book_4_title),
-                body = getString(R.string.book_4_body),
-                imageId = R.drawable.image4
-            ),
-            Book(
-                title = getString(R.string.book_5_title),
-                body = getString(R.string.book_5_body),
-                imageId = R.drawable.image7
-            ),
-            Book(
-                title = getString(R.string.book_6_title),
-                body = getString(R.string.book_6_body),
-                imageId = R.drawable.image6
-            ),
-            Book(
-                title = getString(R.string.book_7_title),
-                body = getString(R.string.book_7_body),
-                imageId = R.drawable.image2
             )
         )
     }
