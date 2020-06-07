@@ -11,40 +11,40 @@ import com.google.android.gms.ads.RequestConfiguration
 import java.util.*
 
 
-fun MainFragment.initAdapter() {
+fun MainFragmentBlade.initAdapterBlade() {
     val viewModel = viewDataBinding.viewmodel
     if (viewModel != null) {
-        listAdapter = TasksAdapter(viewModel)
-        viewDataBinding.recyclerViewBooks.adapter = listAdapter
+        listAdapterBlade = TasksAdapterBlade(viewModel)
+        viewDataBinding.recyclerViewBooks.adapter = listAdapterBlade
         viewDataBinding.recyclerViewBooks.layoutManager = GridLayoutManager(requireContext(), 2)
         if (viewModel.showAdvertState)
-            makeOneSpanForAdView()
+            makeOneSpanForAdViewBlade()
         viewModel.items.observe(viewLifecycleOwner, Observer {
-            listAdapter.submitList(it)
+            listAdapterBlade.submitList(it)
         })
     } else {
         //            Timber.w("ViewModel not initialized when attempting to set up adapter.")
     }
 }
 
-class TaskDiffCallback : DiffUtil.ItemCallback<Book>() {
+class TaskDiffCallbackBlade : DiffUtil.ItemCallback<Blade>() {
 
-    override fun areItemsTheSame(oldItem: Book, newItem: Book): Boolean {
+    override fun areItemsTheSame(oldItem: Blade, newItem: Blade): Boolean {
         return oldItem.id == newItem.id
     }
 
-    override fun areContentsTheSame(oldItem: Book, newItem: Book): Boolean {
+    override fun areContentsTheSame(oldItem: Blade, newItem: Blade): Boolean {
         return oldItem == newItem
     }
 
 }
 
 @BindingAdapter("imageResource")
-fun setImageResource(imageView: ImageView, resource: Int) {
+fun setImageResourceBlade(imageView: ImageView, resource: Int) {
     imageView.setImageResource(resource)
 }
 
-fun getAdRequest(): AdRequest? {
+fun getAdRequestBlade(): AdRequest? {
     val adRequest = AdRequest.Builder().build()
     val testDeviceIds = Arrays.asList("F5E4CD8EA025C4062D9E4BE54D002D25")
     val configuration =
@@ -53,7 +53,7 @@ fun getAdRequest(): AdRequest? {
     return adRequest
 }
 
-private fun MainFragment.makeOneSpanForAdView() {
+private fun MainFragmentBlade.makeOneSpanForAdViewBlade() {
     (viewDataBinding.recyclerViewBooks.layoutManager as GridLayoutManager)
         .spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
         override fun getSpanSize(position: Int): Int {

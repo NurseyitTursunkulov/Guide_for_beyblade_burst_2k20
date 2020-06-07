@@ -5,28 +5,28 @@ import android.content.Context
 import android.view.ViewTreeObserver
 import android.view.WindowManager
 import androidx.fragment.app.Fragment
-import com.example.guideforbeybladeburst2k20.MainViewModel
-import com.example.guideforbeybladeburst2k20.SplashFragment
-import com.example.guideforbeybladeburst2k20.bookList.Book
+import com.example.guideforbeybladeburst2k20.MainViewModelBlade
+import com.example.guideforbeybladeburst2k20.SplashFragmentBlade
+import com.example.guideforbeybladeburst2k20.bookList.Blade
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
-import kotlinx.android.synthetic.main.splash_fragment.*
+import kotlinx.android.synthetic.main.splash_fragmentblade.*
 import java.util.*
 
-fun Fragment.removeFullScreen() {
+fun Fragment.removeFullScreenBlade() {
     requireActivity().window.apply {
         addFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN)
         clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
     }
 }
 
-fun MainViewModel.getString(int: Int): String {
+fun MainViewModelBlade.getStringBlade(int: Int): String {
     return getApplication<Application>().resources.getString(int)
 }
 
-fun SplashFragment.divideTextToParts(bookList: List<Book>) {
+fun SplashFragmentBlade.divideTextToPartsBlade(bladeList: List<Blade>) {
     content_tv_for_count.viewTreeObserver.addOnPreDrawListener(object :
         ViewTreeObserver.OnPreDrawListener {
         override fun onPreDraw(): Boolean {
@@ -40,7 +40,7 @@ fun SplashFragment.divideTextToParts(bookList: List<Book>) {
             val end = content_tv_for_count.layout.getLineEnd(maxLinesVisible - 1)
 
             val content = content_tv_for_count.text.toString().substring(start, end)
-            bookList.forEach { book ->
+            bladeList.forEach { book ->
                 book.listOfContentPerPage = book.body.chunked(content.length)
             }
             return true
@@ -49,7 +49,7 @@ fun SplashFragment.divideTextToParts(bookList: List<Book>) {
     )
 }
 
-fun initAdds(context: Context) {
+fun initAddsBlade(context: Context) {
     MobileAds.initialize(context) {}
     MobileAds.setRequestConfiguration(
         RequestConfiguration.Builder()
@@ -58,7 +58,7 @@ fun initAdds(context: Context) {
     )
 }
 
-fun initAdvert(context: Context): AdView {
+fun initAdvertBlade(context: Context): AdView {
     val adView = AdView(context)
     adView.adSize = AdSize.LARGE_BANNER
     adView.adUnitId = "ca-app-pub-3940256099942544/6300978111"

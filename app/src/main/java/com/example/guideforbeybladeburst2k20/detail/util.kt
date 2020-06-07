@@ -6,15 +6,15 @@ import androidx.fragment.app.Fragment
 import com.androidsx.rateme.RateMeDialog
 import com.androidsx.rateme.RateMeDialogTimer
 import com.example.guideforbeybladeburst2k20.R
-import com.example.guideforbeybladeburst2k20.bookList.getAdRequest
+import com.example.guideforbeybladeburst2k20.bookList.getAdRequestBlade
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.InterstitialAd
 import kotlinx.android.synthetic.main.activity_screen_slide.*
 import java.util.*
 
 
-fun BookDetailFragment.initPendingIndicatorView() {
-    val book = viewModel.navigateToDetailEvent.value?.peekContent()
+fun BookDetailFragmentBlade.initPendingIndicatorViewBlade() {
+    val book = viewModelBlade.navigateToDetailEvent.value?.peekContent()
 
     pageIndicatorView.count =
         book?.listOfContentPerPage?.size ?: 1 // specify total count of indicators
@@ -22,15 +22,15 @@ fun BookDetailFragment.initPendingIndicatorView() {
     pageIndicatorView.selection = 1
 }
 
-fun Fragment.showBannerAdvert(adView: AdView, showAdvertState: Boolean) {
+fun Fragment.showBannerAdvertBlade(adView: AdView, showAdvertState: Boolean) {
     if (showAdvertState) {
         adView.visibility = View.VISIBLE
-        val adRequest = getAdRequest()
+        val adRequest = getAdRequestBlade()
         adView.loadAd(adRequest)
     }
 }
 
-fun Fragment.showRateMeDialog() {
+fun Fragment.showRateMeDialogBlade() {
     RateMeDialogTimer.onStart(requireContext())
     if (RateMeDialogTimer.shouldShowRateDialog(requireContext(), 1, 2)) {
         RateMeDialog.Builder(requireActivity().packageName, "")
@@ -44,7 +44,7 @@ fun Fragment.showRateMeDialog() {
     }
 }
 
-fun showInterstitialAdvertSafe(interstitialAd: InterstitialAd) {
+fun showInterstitialAdvertSafeBlade(interstitialAd: InterstitialAd) {
     if (interstitialAd.isLoaded) {
         interstitialAd.show()
     } else {
@@ -52,20 +52,13 @@ fun showInterstitialAdvertSafe(interstitialAd: InterstitialAd) {
     }
 }
 
-fun ScreenSlidePageFragment.getRandomImage(): Int {
+fun ScreenSlidePageFragmentBlade.getRandomImageBlade(): Int {
     val images =
         intArrayOf(
-            R.drawable.foot5 //ok
-            , R.drawable.image1// ok
-            , R.drawable.image2, //ok
-            R.drawable.foot12, //ok
-            R.drawable.foot13,// ok
-            R.drawable.foot15,// ok
-            R.drawable.foot16,// ok
-            R.drawable.foot18,
-            R.drawable.foot20,
-            R.drawable.foot21,
-            R.drawable.foot19
+            R.drawable.foot1blade,
+            R.drawable.foot2blade,
+            R.drawable.foot3blade,
+            R.drawable.foot4blade
         )
     val rand = Random()
     return images[rand.nextInt(images.size)]
