@@ -2,12 +2,12 @@
 <resources>
     <color name="colorAccentPressed">#6a8BC34A</color>
     <color name="colorAccentFocused">#968BC34A</color>
-    <color name="colorPrimary">#0061e5</color>
+    <color name="colorPrimary">#394367</color>
     <color name="dialog_body">#8A000000</color>
     <color name="dialog_button">#2196F3</color>
 
     <!-- colorPrimaryDark is used for the status bar -->
-    <color name="colorPrimaryDark">#0248A6</color>
+    <color name="colorPrimaryDark">#23283b</color>
 
     <!-- colorAccent is used as the default value for colorControlActivated,
          which is used to tint widgets -->
@@ -29,7 +29,7 @@
     <color name="download_button_tint">#616161</color>
     <color name="gray_ripple_pressed">#e0e0e0</color>
     <color name="gray_ripple_focused">#e0e0e0</color>
-    <color name="colorAccent">#0061e5</color>
+    <color name="colorAccent">#394367</color>
 
     <color name="translucent_scrim_top">#26000000</color>
     <color name="translucent_scrim_top_center">#0C000000</color>
